@@ -3,13 +3,13 @@
 
 ## Write a short comment describing this function
 ## This function creates aspecial "matrix" thatcan cache its inverse
-## The inverse is given a name as "I"
+## The inverse is given a name as "inv"
 ##The special matrix is named as "x"
 makeCacheMatrix <- function(x = matrix()) {
-I <- NULL
+inv <- NULL
    set <- function(y) {
    x <<- y
-   I <<- NULL
+   inv <<- NULL
   }
 
 get <- function() x
